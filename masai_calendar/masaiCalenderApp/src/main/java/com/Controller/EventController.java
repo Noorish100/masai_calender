@@ -25,7 +25,7 @@ import jakarta.validation.Valid;
 public class EventController {
 	
 	@Autowired
-	private EventServices eventServices;
+	private EventImpl eventServices;
 	
 	
 	@PutMapping("/event/{id}")
